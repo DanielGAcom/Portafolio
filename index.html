@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/css.css">
+    <title>DanielGA</title>
+</head>
+<body>
+    <header>
+        <div class="iconoMarca">
+            <img src="img/icon.svg" alt="Icono">
+        </div>
+        <div class="mensajeHeader">
+            <!-- <h3 class="textoMensaje">
+                Hola!
+            </h3> -->
+        </div>
+        <a href="#" class="iconoMenu">
+            <img src="img/menu.svg" alt="Menu">
+        </a href="#">
+        <!-- Aqui Falta el nav con el menu -->
+
+        
+    </header>
+    <ul class="menu">
+        <a href="#">
+            <li>Home</li>
+        </a>
+        <a href="#">
+            <li>Ejemplos</li>
+        </a>
+        <a href="#">
+            <li>Mis trabajos</li>
+        </a>
+        <a href="#">
+            <li>Blog</li>
+        </a>
+    </ul>
+    <section class="landing"></section>
+    <div class="texto_landing"> 
+        <h1 class="msj_landing">Tu sitio web desde <b>20 dolares</b></h1>
+        <button class="cotizar">Cotizar</button>
+        <button class="ejemplos">ejemplos</button>
+    </div>
+    <div class="box_saber_mas">
+        <p class="quieres_saber">¿Quieres saber que tecnologias impulsaran tu web?</p>
+        <button class="boton_saber_mas">Saber mas</button>
+    </div>
+    <article class="nodejs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam sequi, ratione maiores ab necessitatibus sit. Voluptas non incidunt voluptate! Consequuntur, fugit minima? Illum, voluptas quod repudiandae odit rem quisquam?</article>
+
+    <script>
+        var header = document.getElementsByTagName("header")[0];
+    document.onscroll = function(){    
+        if(pageYOffset >= 37){
+            header.style.background = "linear-gradient(to right,#002171,#5472d3 )";
+        }else{
+            header.style.background = "transparent";
+        }
+    }
+    </script>
+    
+</body>
+</html>
